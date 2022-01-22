@@ -333,7 +333,7 @@ class GpsDataReader:
         fig.update_yaxes(title_text="km", secondary_y=False)
         fig.update_yaxes(title_text="km cumsum", secondary_y=True)
 
-        print(fig.show())
+        fig.show()
 
     def speed_diagram(self):
         """ Displays vehicle speed trace and daily average speed.
