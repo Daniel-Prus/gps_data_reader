@@ -12,7 +12,7 @@ np.set_printoptions(precision=6, suppress=True, edgeitems=10, linewidth=100000,
 class DBManager:
     """Class creates and allows to manage SQLite databases for gps signal data.
 
-    'Attributes'
+        'Attributes'
         ------------
             database (str): name/path of database. If not exists creates new database.
 
@@ -21,7 +21,6 @@ class DBManager:
     def __init__(self, database):
         self.database = database
         self.__connect = sqlite3.connect(database, timeout=100)
-        self.__connect.isolation_level = None
         self.__cursor = self.__connect.cursor()
 
     def __del__(self):
