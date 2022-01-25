@@ -11,7 +11,7 @@ Any similarities to real personal data are coincidental.
 * [Repository content](#Repository-content)
 * [GPS Data Reader Package](#GPS-Data-Reader-Package)
 * [Tech Stack And Requirements](#Tech-Stack-And-Requirements)
-* [How to run](#How-to-run)
+* [How to use](#How-to-use)
 ## Repository content
 
 - *gps_data_reader* (python package)
