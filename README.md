@@ -28,7 +28,7 @@ Python package for organizing and reading GPS data.
 The package is intended for collecting, processing and reading signals from GPS devices.
 
 **gps_data_reader** allows to track and manage routes in international road transport of goods and passengers
-in accordance with *Regulation (EC) No 561/2006* and *Act of 16 April 2004 on working time of drivers (Text No. 879)* and its updates.
+in accordance 		with *Regulation (EC) No 561/2006* and *Act of 16 April 2004 on working time of drivers (Text No. 879)* and its updates.
 
 #### Main Features
 -------------
