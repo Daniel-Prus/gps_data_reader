@@ -17,7 +17,7 @@ Any similarities to real personal data are coincidental.
 - *gps_data_reader* (python package)
 - *1_data_processing.ipynb* (raw data processing)
 - *2_create_db_DBManager_class.ipynb*  (creating a database for xyz company with DBManager)
-- *3_GpsDataReader_review.ipynb* (functionalities)
+- *3_GpsDataReader_review.ipynb* (functionality presentation)
 - *company_xyz.db* (company database)
 - *gps_data.pickle* (processed data)
 - *gps_raw_data.csv* (raw data)
@@ -54,7 +54,9 @@ WIN10, Python 3.8.12, SQLite 3.34.0, Jupyter Notebook 6.4.5
     
     os
     datetime
-    unittest 
+    collections
+    unittest
+    parameterized 0.8.1
     sqlite3 '2.6.0'
     numpy '1.20.1'
     pandas '1.3.4'
