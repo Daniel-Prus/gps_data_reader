@@ -12,7 +12,7 @@ Any similarities to real personal data are coincidental.
 * [GPS Data Reader Package](#GPS-Data-Reader-Package)
 * [Tech Stack And Requirements](#Tech-Stack-And-Requirements)
 * [How to use](#How-to-use)
-* [Run with Docker](#Run with Docker)
+* [Run with Docker](#Run-with-Docker)
 
 ## Repository content
 
