@@ -12,6 +12,8 @@ Any similarities to real personal data are coincidental.
 * [GPS Data Reader Package](#GPS-Data-Reader-Package)
 * [Tech Stack And Requirements](#Tech-Stack-And-Requirements)
 * [How to use](#How-to-use)
+* [Run with Docker](#Run with Docker)
+
 ## Repository content
 
 - *gps_data_reader* (python package)
@@ -75,3 +77,44 @@ Caution! Github does not allow the display of maps. For a full review copy the n
 or try below link:
 
 http://nbviewer.org/github/Daniel-Prus/gps_data_reader/blob/main/3_GpsDataReader_review.ipynb
+
+
+## Run with Docker
+Make sure you have installed Docker application on your computer. For more information visit https://docs.docker.com/get-docker/ .
+
+Link to the Docker image https://hub.docker.com/r/danielprus/gps_data_reader .
+
+
+
+
+#### Image specification:
+
+python:3.8-slim
+
+     jupyterlab 3.2.8
+     pandas 1.4.0
+     numpy 1.22.1
+     plotly 5.5.0
+     parameterized 0.8.1
+     folium 0.12.1.post1
+
+
+#### Run with terminal:
+
+    1. Docker pull command:
+
+        docker pull danielprus/gps_data_reader
+
+    2. Run container with mapped port :
+
+        docker run --rm -d -t --name=gps -p 8888:8888  danielprus/gps_data_reader
+
+    3. Execute container with bash:
+
+        docker exec -ti gps bash
+
+    4. Run jupter lab in container:
+
+        jupyter lab --ip='0.0.0.0' --port=8888 --no-browser --allow-root
+
+    5. Copy jupyter lab link and paste into your browser, or use localhost:8888.
